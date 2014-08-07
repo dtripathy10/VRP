@@ -17,3 +17,8 @@
 * git commit -m "message-of-work"
 * git pull
 * git push
+
+## Coding Guidelines
+
+The project is strictly following the coding guidelines of **Stanford CS 106B**. Please read the given link before you submit the code.
+[http://web.stanford.edu/class/cs106b/styleguide.shtml](http://web.stanford.edu/class/cs106b/styleguide.shtml)
