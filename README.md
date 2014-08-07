@@ -7,3 +7,12 @@
 * Install Git (New to Git!! Please refer the project documentation)
 
 * Clone the project using command **git clone http://github.com/dtripathy10/VRP.gi**
+
+* Go to Project directory and add the following command **git remote add origin https://github.com/dtripathy10/VRP.git**
+
+## Requisite knowledge of git to work with Project
+
+* git add *
+* git commit -m "message-of-work"
+* git pull
+* git push
