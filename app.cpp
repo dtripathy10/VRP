@@ -1,6 +1,10 @@
 #include "app.h"
 #include "ui_app.h"
 
+#include <QtCore>
+#include <QtGui>
+#include <QMessageBox>
+
 App::App(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::App)
@@ -8,7 +12,11 @@ App::App(QWidget *parent) :
     ui->setupUi(this);
 }
 
-App::~App()
-{
+App::~App() {
     delete ui;
+}
+
+void App::on_actionOpen_triggered() {
+
+    QMessageBox::information(this,"title","Hello");
 }

@@ -16,6 +16,9 @@ public:
     explicit App(QWidget *parent = 0);
     ~App();
 
+private slots:
+    void on_actionOpen_triggered();
+
 private:
     Ui::App *ui;
 };
