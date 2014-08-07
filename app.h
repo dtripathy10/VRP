@@ -3,8 +3,9 @@
 
 #include <QMainWindow>
 
+
 namespace Ui {
-class App;
+    class App;
 }
 
 class App : public QMainWindow
@@ -14,6 +15,9 @@ class App : public QMainWindow
 public:
     explicit App(QWidget *parent = 0);
     ~App();
+
+private slots:
+    void on_actionOpen_triggered();
 
 private:
     Ui::App *ui;
