@@ -6,3 +6,4 @@
 
 * Install Git (New to Git!! Please refer the project documentation)
 
+* Clone the project using command **git clone http://github.com/dtripathy10/VRP.gi**
