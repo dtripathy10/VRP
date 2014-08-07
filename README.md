@@ -12,6 +12,7 @@
 
 ## Requisite knowledge of git to work with Project
 
+* git pull
 * git add *
 * git commit -m "message-of-work"
 * git pull
