@@ -18,3 +18,5 @@ SOURCES += main.cpp\
 HEADERS  += app.h
 
 FORMS    += app.ui
+
+MOC_DIR = ../.obj/
