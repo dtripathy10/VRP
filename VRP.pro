@@ -13,10 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        app.cpp
+        app.cpp \
+    dialog.cpp
 
-HEADERS  += app.h
+HEADERS  += app.h \
+    dialog.h
 
-FORMS    += app.ui
+FORMS    += app.ui \
+    dialog.ui
 
 MOC_DIR = ../.obj/

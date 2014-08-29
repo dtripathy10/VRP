@@ -19,6 +19,8 @@ public:
 private slots:
     void on_actionOpen_triggered();
 
+    void on_actionAlgo_1_triggered();
+
 private:
     Ui::App *ui;
 };
